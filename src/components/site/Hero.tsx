@@ -53,12 +53,12 @@ export function Hero() {
         ))}
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-6 pt-32 pb-20 md:px-10">
+      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-5 pt-28 pb-16 sm:px-6 md:px-10 md:pt-32 md:pb-20">
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mb-6 inline-flex w-fit items-center gap-2 rounded-full glass px-4 py-1.5 text-xs uppercase tracking-[0.25em] text-muted-foreground"
+          className="mb-5 inline-flex w-fit items-center gap-2 rounded-full glass px-3 py-1.5 text-[10px] uppercase tracking-[0.2em] text-muted-foreground sm:px-4 sm:text-xs sm:tracking-[0.25em]"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
           Premium Tattoo Atelier · Est. 2014
@@ -68,7 +68,8 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35, duration: 0.9 }}
-          className="max-w-4xl font-display text-6xl leading-[0.95] tracking-tight md:text-8xl lg:text-[8.5rem]"
+          className="max-w-4xl font-display text-[2.75rem] leading-[1] tracking-tight sm:text-6xl md:text-8xl lg:text-[8.5rem] lg:leading-[0.95]"
+
         >
           Ink Your Story <br />
           with <span className="text-gradient italic">Precision</span>
@@ -78,7 +79,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="mt-8 max-w-xl text-lg text-muted-foreground md:text-xl"
+          className="mt-6 max-w-xl text-base text-muted-foreground sm:mt-8 sm:text-lg md:text-xl"
         >
           Premium tattoo artistry where creativity, hygiene, and individuality
           come together — crafted by hand, worn for life.
@@ -88,18 +89,18 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.85, duration: 0.6 }}
-          className="mt-10 flex flex-wrap items-center gap-4"
+          className="mt-8 flex flex-wrap items-center gap-3 sm:mt-10 sm:gap-4"
         >
           <a
             href="#booking"
-            className="group relative overflow-hidden rounded-full bg-gradient-accent px-8 py-4 text-sm font-medium text-primary-foreground glow-accent-lg transition-transform hover:scale-105"
+            className="group relative overflow-hidden rounded-full bg-gradient-accent px-6 py-3.5 text-sm font-medium text-primary-foreground glow-accent-lg transition-transform hover:scale-105 sm:px-8 sm:py-4"
           >
             <span className="relative z-10">Book Appointment</span>
             <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-700 group-hover:translate-x-full" />
           </a>
           <a
             href="#gallery"
-            className="rounded-full glass px-8 py-4 text-sm font-medium text-foreground transition-all hover:bg-white/10"
+            className="rounded-full glass px-6 py-3.5 text-sm font-medium text-foreground transition-all hover:bg-white/10 sm:px-8 sm:py-4"
           >
             View Designs →
           </a>
@@ -109,14 +110,15 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 1 }}
-          className="mt-20 flex items-center gap-8 text-xs uppercase tracking-[0.2em] text-muted-foreground"
+          className="mt-14 flex items-center gap-5 text-[10px] uppercase tracking-[0.18em] text-muted-foreground sm:mt-20 sm:gap-8 sm:text-xs sm:tracking-[0.2em]"
         >
-          <div><span className="text-foreground text-2xl font-display">10+</span><br />Years</div>
-          <div className="h-10 w-px bg-border" />
-          <div><span className="text-foreground text-2xl font-display">5K+</span><br />Tattoos</div>
-          <div className="h-10 w-px bg-border" />
-          <div><span className="text-foreground text-2xl font-display">4.9★</span><br />Rated</div>
+          <div><span className="text-foreground text-xl font-display sm:text-2xl">10+</span><br />Years</div>
+          <div className="h-8 w-px bg-border sm:h-10" />
+          <div><span className="text-foreground text-xl font-display sm:text-2xl">5K+</span><br />Tattoos</div>
+          <div className="h-8 w-px bg-border sm:h-10" />
+          <div><span className="text-foreground text-xl font-display sm:text-2xl">4.9★</span><br />Rated</div>
         </motion.div>
+
       </div>
     </section>
   );
