@@ -53,12 +53,12 @@ export function Hero() {
         ))}
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-6 pt-32 pb-20 md:px-10">
+      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-5 pt-28 pb-16 sm:px-6 md:px-10 md:pt-32 md:pb-20">
         <motion.span
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mb-6 inline-flex w-fit items-center gap-2 rounded-full glass px-4 py-1.5 text-xs uppercase tracking-[0.25em] text-muted-foreground"
+          className="mb-5 inline-flex w-fit items-center gap-2 rounded-full glass px-3 py-1.5 text-[10px] uppercase tracking-[0.2em] text-muted-foreground sm:px-4 sm:text-xs sm:tracking-[0.25em]"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
           Premium Tattoo Atelier · Est. 2014
@@ -68,7 +68,8 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35, duration: 0.9 }}
-          className="max-w-4xl font-display text-6xl leading-[0.95] tracking-tight md:text-8xl lg:text-[8.5rem]"
+          className="max-w-4xl font-display text-[2.75rem] leading-[1] tracking-tight sm:text-6xl md:text-8xl lg:text-[8.5rem] lg:leading-[0.95]"
+
         >
           Ink Your Story <br />
           with <span className="text-gradient italic">Precision</span>
