@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import heroImg from "@/assets/hero.jpg";
+import heroImg from "@/assets/hero.webp";
 
 export function Hero() {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });

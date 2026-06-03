@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import g1 from "@/assets/g1.jpg";
-import g2 from "@/assets/g2.jpg";
-import g3 from "@/assets/g3.jpg";
-import g4 from "@/assets/g4.jpg";
+import g1 from "@/assets/g1.webp";
+import g2 from "@/assets/g2.webp";
+import g3 from "@/assets/g3.webp";
+import g4 from "@/assets/g4.webp";
 
 const designs = [
   { img: g2, style: "Neo Mythic", desc: "Detailed anime-inspired narrative pieces." },

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Sparkles, Shield, Award, Droplet } from "lucide-react";
-import aboutImg from "@/assets/about.jpg";
+import aboutImg from "@/assets/about.webp";
 
 const features = [
   { icon: Sparkles, title: "Custom Designs", desc: "Drawn for you, never reused." },

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
-import t1 from "@/assets/t1.jpg";
-import t2 from "@/assets/t2.jpg";
-import t3 from "@/assets/t3.jpg";
+import t1 from "@/assets/t1.webp";
+import t2 from "@/assets/t2.webp";
+import t3 from "@/assets/t3.webp";
 
 const reviews = [
   { img: t1, name: "Aanya Mehra", role: "Minimal sleeve", text: "Best tattoo experience I've ever had. The artists genuinely listen — my piece feels like a part of me." },
