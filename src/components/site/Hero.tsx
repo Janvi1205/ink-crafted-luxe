@@ -79,7 +79,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="mt-8 max-w-xl text-lg text-muted-foreground md:text-xl"
+          className="mt-6 max-w-xl text-base text-muted-foreground sm:mt-8 sm:text-lg md:text-xl"
         >
           Premium tattoo artistry where creativity, hygiene, and individuality
           come together — crafted by hand, worn for life.
@@ -89,18 +89,18 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.85, duration: 0.6 }}
-          className="mt-10 flex flex-wrap items-center gap-4"
+          className="mt-8 flex flex-wrap items-center gap-3 sm:mt-10 sm:gap-4"
         >
           <a
             href="#booking"
-            className="group relative overflow-hidden rounded-full bg-gradient-accent px-8 py-4 text-sm font-medium text-primary-foreground glow-accent-lg transition-transform hover:scale-105"
+            className="group relative overflow-hidden rounded-full bg-gradient-accent px-6 py-3.5 text-sm font-medium text-primary-foreground glow-accent-lg transition-transform hover:scale-105 sm:px-8 sm:py-4"
           >
             <span className="relative z-10">Book Appointment</span>
             <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-700 group-hover:translate-x-full" />
           </a>
           <a
             href="#gallery"
-            className="rounded-full glass px-8 py-4 text-sm font-medium text-foreground transition-all hover:bg-white/10"
+            className="rounded-full glass px-6 py-3.5 text-sm font-medium text-foreground transition-all hover:bg-white/10 sm:px-8 sm:py-4"
           >
             View Designs →
           </a>
@@ -110,14 +110,15 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 1 }}
-          className="mt-20 flex items-center gap-8 text-xs uppercase tracking-[0.2em] text-muted-foreground"
+          className="mt-14 flex items-center gap-5 text-[10px] uppercase tracking-[0.18em] text-muted-foreground sm:mt-20 sm:gap-8 sm:text-xs sm:tracking-[0.2em]"
         >
-          <div><span className="text-foreground text-2xl font-display">10+</span><br />Years</div>
-          <div className="h-10 w-px bg-border" />
-          <div><span className="text-foreground text-2xl font-display">5K+</span><br />Tattoos</div>
-          <div className="h-10 w-px bg-border" />
-          <div><span className="text-foreground text-2xl font-display">4.9★</span><br />Rated</div>
+          <div><span className="text-foreground text-xl font-display sm:text-2xl">10+</span><br />Years</div>
+          <div className="h-8 w-px bg-border sm:h-10" />
+          <div><span className="text-foreground text-xl font-display sm:text-2xl">5K+</span><br />Tattoos</div>
+          <div className="h-8 w-px bg-border sm:h-10" />
+          <div><span className="text-foreground text-xl font-display sm:text-2xl">4.9★</span><br />Rated</div>
         </motion.div>
+
       </div>
     </section>
   );
